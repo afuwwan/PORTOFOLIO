@@ -11,6 +11,7 @@
     --accent-light: #8b5cf6;
     --accent-glow: rgba(139, 92, 246, 0.08);
     --hover-bg: #f4f4f5;
+    --bg-navbar: rgba(252, 252, 253, 0.75);
     
     /* System variables */
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -36,6 +37,7 @@
         --accent-light: #c084fc;
         --accent-glow: rgba(167, 139, 250, 0.15);
         --hover-bg: #1e1e24;
+        --bg-navbar: rgba(9, 9, 11, 0.75);
     }
 }
 
@@ -87,7 +89,7 @@ a {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: rgba(var(--bg-color) === #09090b ? 9 : 252, var(--bg-color) === #09090b ? 9 : 252, var(--bg-color) === #09090b ? 11 : 253, 0.75);
+    background-color: var(--bg-navbar);
     /* Dynamic fallback for solid background in browsers without backdrop support */
     background: color-mix(in srgb, var(--bg-color) 75%, transparent);
     backdrop-filter: blur(16px);
