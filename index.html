@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afuwwan Aqila Zein Putra — Creative Game Developer</title>
+    <meta name="description" content="Portfolio of Afuwwan Aqila Zein Putra — Creative Game Developer specializing in game design, development, and immersive experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;1,14..32,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="nav-logo">Afuwwan.</a>
+            <ul class="nav-links">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-inner">
+            <p class="hero-eyebrow">Available for opportunities</p>
+            <h1 id="profile-name">Afuwwan Aqila Zein Putra</h1>
+            <p class="hero-role" id="profile-title">Creative Game Developer</p>
+            <p class="hero-desc" id="profile-bio">Passionate about innovative gameplay mechanics and immersive storytelling. I bring a unique artistic vision to projects, excelling in both design and code.</p>
+            <div class="hero-actions">
+                <a href="#work" class="btn-primary">See My Work</a>
+                <a href="https://github.com/afuwwan" target="_blank" class="btn-ghost">GitHub ↗</a>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">↓ scroll</div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+        <div class="section-inner">
+            <div class="section-label">Selected Work</div>
+            <div class="projects-list" id="projects-container">
+                <!-- Populated by script.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section-alt">
+        <div class="section-inner two-col">
+            <div class="col-left">
+                <div class="section-label">Experience & Education</div>
+                <h2>Background</h2>
+            </div>
+            <div class="col-right">
+                <div class="timeline">
+                    <!-- Experience -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun – Jul 2024</div>
+                        <div class="timeline-content">
+                            <h3>Web Developer Intern</h3>
+                            <p class="timeline-org">Malang City Population and Civil Registration Service</p>
+                            <ul>
+                                <li>Developed web applications using HTML, CSS, and JavaScript.</li>
+                                <li>Collaborated effectively with team of interns to complete group projects efficiently.</li>
+                                <li>Eagerly absorbed new information and honed skills under guidance of experienced professionals.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Education -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">July 2025</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Computer Science in Informatics</h3>
+                            <p class="timeline-org">University of Brawijaya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="section-inner two-col">
+            <div class="col-left">
+                <div class="section-label">About</div>
+                <h2>Who I Am</h2>
+            </div>
+            <div class="col-right">
+                <p class="about-text" id="profile-about-extended">Creative Game Developer with passion for innovative gameplay mechanics and immersive storytelling. Brings unique artistic vision to projects, excelling in both design and coding to create captivating, out-of-the-box experiences. Adept at collaborating with diverse teams to push boundaries of conventional game development.</p>
+                <div class="skills-grid">
+                    <span class="skill">Game Design</span>
+                    <span class="skill">Game Development (GDevelop & Unity Engine)</span>
+                    <span class="skill">UI/UX Design for Websites</span>
+                    <span class="skill">Version Control (Git/Github)</span>
+                    <span class="skill">Web VR (A-Frame Framework)</span>
+                    <span class="skill">HTML / CSS / JS</span>
+                    <span class="skill">C++</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+        <div class="section-inner contact-inner">
+            <div class="section-label">Contact</div>
+            <h2>Let's talk.</h2>
+            <a href="mailto:afuwwanaqila@gmail.com" class="contact-email">afuwwanaqila@gmail.com ↗</a>
+            
+            <div class="contact-details">
+                <p class="contact-detail"><span>📞</span> +62 895 0280 0017</p>
+                <p class="contact-detail"><span>📍</span> Malang, East Java 65141</p>
+            </div>
+
+            <div class="contact-links" id="social-links-container">
+                <a href="https://github.com/afuwwan" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/afuwwan-aqila-zein-putra42376221a/" target="_blank">LinkedIn</a>
+                <a href="https://afuwwan.itch.io" target="_blank">Itch.io</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <span>© <span id="year"></span> Afuwwan Aqila Zein Putra</span>
+            <a href="editor.html" class="footer-editor-link">Edit Portfolio</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
